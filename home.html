@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi-Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: sans-serif;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 80px;
+            background-color:
+                rgb(24, 24, 88);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: violet;
+            font-size: 1.02rem;
+        }
+
+        main hr {
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            margin: 300px 0;
+            font-size: 3rem;
+        }
+
+        .rightsection img {
+            width: 80%;
+        }
+
+        .red {
+            color: rgb(41, 10, 237);
+        }
+
+        #element {
+            color: violet;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin-left: 155px;
+        }
+
+        .buttons {
+            margin: auto;
+            padding: 20px;
+            max-width: 80vw;
+        }
+
+        .buttons button {
+            padding: 9px 14px;
+            border-radius: 22px;
+            color: white;
+            background-color: dodgerblue;
+            font-weight: bold;
+            font-size: 21px;
+            margin: 0 3px;
+            cursor: pointer;
+        }
+
+        .buttons button:hover {
+            color: dodgerblue;
+            background-color: white;
+        }
+    </style>
+</head>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ravi's-Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/home.html">Home</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="firstsection">
+            <div class="leftsection">
+                <div>Hi,
+                    My Name is <span class="red">Ravi</span></div>
+                <div>I am Web Devlepor</div><span id="element"></span>
+            </div>
+            <div class="rightsection"><img src="bg.img" alt=""></div>
+        </div>
+        <div class="buttons"><a href="/cv.txt" target="blank"><button>Download CV</button></a><a
+                href="/contact.html"><button>Contact Me</button></a></div>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>var typed = new Typed('#element', {
+            strings: ['Web Devlepor', 'Web designer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi-Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: sans-serif;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 80px;
+            background-color:
+                rgb(24, 24, 88);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: violet;
+            font-size: 1.02rem;
+        }
+
+        main hr {
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        h1 {
+            font-family: sans-serif;
+            margin: 15px;
+        }
+
+        p {
+            margin: 10px;
+            margin-left: 15px;
+        }
+
+        h2 {
+            margin-left: 30px;
+        }
+
+        .skillcontainer {
+            padding: 15px;
+            margin-top: 3px;
+        }
+
+        .skillItems {
+            display: flex;
+            margin: 10px;
+        }
+
+        .skills {
+            background-color: red;
+            margin: 5px;
+            height: 10px;
+            width: 500px;
+        }
+        .skills1{
+            background-color: red;
+            margin: 5px;
+            height: 10px;
+            width: 400px;
+        }
+        .skills2{
+            background-color: red;
+            margin: 5px;
+            height: 10px;
+            width: 300px;
+        }
+        .skills3{
+            background-color: red;
+            margin: 5px;
+            height: 10px;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ravi's-Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/home.html">Home</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <h1>About Me</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam ea, aspernatur saepe repellat blanditiis, modi
+            deserunt corporis, maxime exercitationem dolorum sit maiores recusandae quasi placeat molestiae accusantium
+            beatae odio unde?</p>
+        <h2>My Skills</h2>
+        <div class="skillcontainer">
+            <div class="skillItems"> HTML:<div class="skills"></div>
+            </div>
+            <div class="skillItems"> CSS:<div class="skills1"></div>
+            </div>
+            <div class="skillItems"> Javascript:<div class="skills2"></div>
+            </div>
+            <div class="skillItems"> NodeJs:<div class="skills3"></div>
+            </div>
+        </div>
+    </div>
+</body>
